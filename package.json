@@ -1,0 +1,24 @@
+{
+  "name": "cypress-with-ts",
+  "version": "1.0.0",
+  "description": "# Pre-requisite    1. Should have node js install refer below link         ```https://nodesource.com/blog/installing-nodejs-tutorial-mac-os-x/```    2. create one folder and open that in VS code    3. run below command to install all libraries dependancy within this folder",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.6",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "esbuild": "^0.20.1",
+    "typescript": "^5.4.2"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions": false
+   
+  }
+}
